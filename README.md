@@ -1,2 +1,2 @@
 # SGL_Listas
-Projeto Final
+Projeto Final do Ensino Técnico
