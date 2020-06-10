@@ -94,16 +94,21 @@
 
 								$sqlP = "";
 
+								$idUser = $_SESSION['usuario'];
+								$idUserQuestao = "User-$idUser";
 								if(isset($_REQUEST['pesquisa'])){
 
 									$pesquisa = $_REQUEST['pesquisa'];
 
-									$sqlP = "select * from questao where idMat = '{$linha['idMate']}' and status = 'aprovado' and enunciado like '%$pesquisa%'";
+									$sqlP = "select * from questao where ( idMat = '{$linha['idMate']}' and status = 'aprovado' and enunciado like '%$pesquisa%' ) or (autoria = '$idUserQuestao')";
+
+
 
 								}
 								else{
 
-									$sqlP = "select * from questao where idMat = '{$linha['idMate']}' and status = 'aprovado'";
+									$sqlP = "select * from questao where ( idMat = '{$linha['idMate']}' and status = 'aprovado') or (autoria = '$idUserQuestao')";
+
 
 								}	
 								$resposta2 = mysqli_query($link, $sqlP);

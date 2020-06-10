@@ -129,7 +129,9 @@
 									";
 								}
 								
-								$resposta2 = mysqli_query($link, "select * from questao where idMat = '{$linha['idMate']}' and status = 'aprovado'");
+								$idUserQuestao = "User-{$_SESSION['usuario']}";
+
+								$resposta2 = mysqli_query($link, "select * from questao where (idMat = '{$linha['idMate']}' and status = 'aprovado') or (autoria = '$idUserQuestao' )");
 								$cont = 0;
 								$cont2 = 0;
 								$i;

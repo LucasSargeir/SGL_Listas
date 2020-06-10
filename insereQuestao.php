@@ -75,16 +75,18 @@
 	}
 	
 	if(isset($_FILES['imagemEnunciado'])){
-		
-		$nomeTemp = $_FILES["imagemEnunciado"]["tmp_name"];
-		$imagem = $_FILES["imagemEnunciado"]["name"];
-		//$tamanho = $_FILES["imagemEnunciado"]["size"];
-		//$formato = $_FILES["imagemEnunciado"]["type"];
-		if(!verificaJPG($_FILES["imagemEnunciado"]["name"])){
-				$aux = 1;
-				header("location:formEnviaQuestao2.php?tipoDeQuestao=$tipoDeQuestao&mgm=3");
-		}
+		if($_FILES['imagemEnunciado']['size'] != 0 ){
 
+			$nomeTemp = $_FILES["imagemEnunciado"]["tmp_name"];
+			$imagem = $_FILES["imagemEnunciado"]["name"];
+			//$tamanho = $_FILES["imagemEnunciado"]["size"];
+			//$formato = $_FILES["imagemEnunciado"]["type"];
+			if(!verificaJPG($_FILES["imagemEnunciado"]["name"])){
+					$aux = 1;
+					header("location:formEnviaQuestao2.php?tipoDeQuestao=$tipoDeQuestao&mgm=3");
+			}
+
+		}
 	}
 	if($aux == 0){
 		$resposta = mysqli_query($link, "select * from questao where enunciado = '$enunciado'");
