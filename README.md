@@ -26,19 +26,19 @@ O site conta com 2 tipos diferentes de acesso, o de professor e de administrador
 
 Para ter acesso ao sistema o usuário teve possuir um login, ele pode se cadastrar ao descer na página de login.
 
-![Login](/mnt/sdb3/SGL Listas/images/readme/login.png)
+![Login](images/readme/login.png)
 
 
 
 Possuindo o acesso, quando o usuário não é um administrador ele vai se deparar com a seguinte tela.
 
-![Bem vindo](/mnt/sdb3/SGL Listas/images/readme/bemvindouser.png)
+![Bem vindo](images/readme/bemvindouser.png)
 
 
 
 Já se ele possuir uma conta administradora se deparará com a seguinte tela.
 
-![](/mnt/sdb3/SGL Listas/images/readme/bemvindoadmin.png)
+![](images/readme/bemvindoadmin.png)
 
 
 
@@ -46,31 +46,31 @@ Já se ele possuir uma conta administradora se deparará com a seguinte tela.
 
 Qualquer nível de usuário pode sugirir uma disciplina na tela inicial.
 
-![Sugerir Disciplina](/mnt/sdb3/SGL Listas/images/readme/disciplina.png)
+![Sugerir Disciplina](images/readme/disciplina.png)
 
 
 
 Além disso, ainda na página inicial é possível ver todas as listas que foram criadas.
 
-![Listas](/mnt/sdb3/SGL Listas/images/readme/verlistas.png)
+![Listas](images/readme/verlistas.png)
 
 
 
 Para criar uma lista, o usuário deve dizer o nome e a disciplina a qual ela está relacionada.
 
-![Criar uma lista](/mnt/sdb3/SGL Listas/images/readme/criarlista.png)
+![Criar uma lista](images/readme/criarlista.png)
 
 
 
 Após essa etapa o sistema irá mostrar todas as questões disponíveis dessa disciplina, as que são públicas e as que o usuário publicou.
 
-![Adicionar questão na lista](/mnt/sdb3/SGL Listas/images/readme/addquestao.png)
+![Adicionar questão na lista](images/readme/addquestao.png)
 
 
 
 A lista criada, podemos ve-la na página inicial. Entrando em ver mais podemos fazer alterações na nossas listas e baixar tanto a lista quando o gabarito.
 
-![Vizualização da lista](/mnt/sdb3/SGL Listas/images/readme/verlista.png)
+![Vizualização da lista](images/readme/verlista.png)
 
 
 
@@ -80,11 +80,11 @@ Os usuários podem, além de escolher as questões que estão no banco de quest�
 - Objetiva Texto
 - Objetiva Imagens
 
-![Tipo de questao](/mnt/sdb3/SGL Listas/images/readme/enviarquestao.png)
+![Tipo de questao](images/readme/enviarquestao.png)
 
 Selecionado o tipo de questão um formulário adaptado para cada uma sera aberto.
 
-![Enviar Questao](/mnt/sdb3/SGL Listas/images/readme/criarquestao.png)
+![Enviar Questao](images/readme/criarquestao.png)
 
 
 
@@ -92,15 +92,15 @@ Selecionado o tipo de questão um formulário adaptado para cada uma sera aberto
 
 Um administrador pode aprovar questões enviadas por professores, para que possa ser vista por todos e não só por ele.
 
-![Aprova Questao](/mnt/sdb3/SGL Listas/images/readme/aprovarquestoes.png)
+![Aprova Questao](images/readme/aprovarquestoes.png)
 
 O admistrador também é responsável por aprovar disciplinas sugeridas
 
-![Aprova Disciplinas](/mnt/sdb3/SGL Listas/images/readme/aprovardisciplinas.png)
+![Aprova Disciplinas](images/readme/aprovardisciplinas.png)
 
 E por criar outros administradores (excluir conta utilizado apenas para fase de testes)
 
-![Aprova Disciplinas](/mnt/sdb3/SGL Listas/images/readme/users.png)
+![Aprova Disciplinas](images/readme/users.png)
 
 
 
